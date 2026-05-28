@@ -15,7 +15,7 @@ int main(){
     int n = sizeof(arr)/sizeof(arr[0]); // length of array 
     int temp;
     
-    for(int p= 1; p<=n;p++){
+    for(int p= 1; p<n;p++){
     for(int i = 0; i < n-p; i++){
         if(arr[i]>arr[i+1]){
             temp = arr[i];
