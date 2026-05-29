@@ -29,10 +29,11 @@ int main(){
     char grade;
 
     printf("What is your name: ");
-    scanf("%s", name);
+    scanf("%49s", name);
 
     printf("What is your grade: ");
-    scanf(" %c", &grade);
+    scanf(" %c", &grade); // the space before that that format specifier is important is to prevent like when user press enter it will be take as a character of new line or space 
+    // and you have to always press enter after entering name so do it that way space is important
 
     printf("Information recorded: %s\tYou've got the grade of %c\n",
            name, grade);
