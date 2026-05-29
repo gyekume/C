@@ -5,6 +5,8 @@ int main(){
     printf("Enter first number : ");  //asking user to input first number
     scanf("%d",&num1); // scanning the first number if it is an integer and add it as value to variable num1 
 
+    // %d is called a format specifier it specifies if the input is integer and add it there
+
     printf("Enter second number  : "); //asking and adding value to variable num2 
     scanf("%d",&num2);
 
