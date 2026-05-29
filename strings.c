@@ -25,8 +25,8 @@ int main(){
     //ADDITION REAL LIFE EXAMPLE 
 
 
-    char name[50];
-    char grade;
+    char name[50];   //declaring strings to not assing on directly 
+    char grade;     //declaring variable to store a character where we will put our entered character
 
     printf("What is your name: ");
     scanf("%49s", name);
