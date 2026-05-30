@@ -27,6 +27,17 @@ int main(){
 
     printf("the force is %f",force);
 
+    //constant are initialized at time of declaration you can't define constants and give them value before 
+
+    /*
+         const int max_height;
+         max_height = 2;
+
+         this will throw the error the perfect and real way is 
+
+         const int max_height = 10;
+    */
+
     
     return 0;   
     
