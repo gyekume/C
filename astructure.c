@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h> // we will use it to copy string into array because arrays are not assignable
 
+// a structure is a way of creating a variable that stores different data types but related to each other 
+//it improves code mantainability  
+
 // This is the way we define we make a structure  
 struct Student{
 
